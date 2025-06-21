@@ -1,0 +1,98 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Off-white: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
+    --Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+
+}
+
+@font-face {
+    font-family: Pop;
+    src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Off-white);
+}
+
+.container{
+    background-color: var(--White);
+    width: 420px;
+    max-width: 100%;
+    position: relative;
+    padding: 50px;  
+    border-bottom-right-radius: 100px;  
+}
+
+input{
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid var(--Off-white);
+}
+
+input:focus{
+    border: 2px solid var(--Purple);
+}
+
+small{
+   color: red;
+   font-size: 0.6rem;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.input-flex{
+    display: flex;
+    margin-top: -25px;
+    margin-left: -50px;
+}
+
+.submit-btn{
+    display: flex;
+    width: 55px;
+    padding: 10px;
+    height: 55px;
+    position: absolute;
+    top: 110px;
+    border-radius: 40px;
+    border: none;
+    right: 20px;
+    background-color: var(--Purple);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.submit-btn:focus{
+    background-color: var(--Off-black);
+}
+
+.output span{
+    font-size: 2.7rem;
+    font-style: italic;
+    color: var(--Purple);
+} 
