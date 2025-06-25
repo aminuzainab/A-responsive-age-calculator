@@ -37,6 +37,7 @@ body{
 }
 
 input{
+    display: flex;
     width: 90px;
     padding: 10px;
     border-radius: 5px;
