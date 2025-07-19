@@ -4,7 +4,7 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: (https://github.com/aminuzainab/A-responsive-age-calculator/tree/main)
+- Solution URL: (https://github.com/aminuzainab/A-responsive-age-calculator)
 - Live Site URL: (https://aminuzainab.github.io/A-responsive-age-calculator/)
 
 ### Built with
