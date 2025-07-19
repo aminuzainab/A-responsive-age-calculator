@@ -16,10 +16,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 - Mobile-first workflow
 - JavaScript
 
-### Continued development
-
-On my next project i will like to take a challenge that require more than HTML,CSS,Javascript.
-
 ## Author
 
 - Website - Zainab Aminu Mikail
